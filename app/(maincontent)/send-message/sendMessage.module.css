@@ -1,0 +1,25 @@
+.sendMessage{
+    min-height: 180px;
+}
+.sendMessageForm{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.textArea{
+    padding: 16px;
+    width: 100%;
+    min-height: 150px;
+}
+
+.textAreaLabel{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.textAreaAlert{
+    font-size: 14px;
+    color: red;
+}
+

@@ -1,0 +1,29 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 5px;
+}
+
+.message__user{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.message__content{
+    font-size: 14px;
+    font-weight: 400;
+}
+.message__date{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.message__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

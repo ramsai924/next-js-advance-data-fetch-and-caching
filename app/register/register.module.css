@@ -1,0 +1,28 @@
+.registerContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.registerContainer__field {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.registerContainer__field label {
+    width: 100px;
+}
+
+.registerContainer__field input {
+    padding: 12px;
+}

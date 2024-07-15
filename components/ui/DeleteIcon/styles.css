@@ -1,0 +1,15 @@
+.delete-icon{
+    padding: 6px;
+    background-color: transparent;
+    color: blue;
+    border: 0.5px solid grey;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-icon:disabled{
+    color: grey;
+}
